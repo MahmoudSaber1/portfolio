@@ -33,18 +33,18 @@ const color_settings = [
 		background: "cyan-color",
 		class: "theme-color-cyan",
 	},
-	{
-		id: "green",
-		name: "Green",
-		background: "green-color",
-		class: "theme-color-green",
-	},
-	{
-		id: "orange",
-		name: "Orange",
-		background: "orange-color",
-		class: "theme-color-orange",
-	},
+	// {
+	// 	id: "green",
+	// 	name: "Green",
+	// 	background: "green-color",
+	// 	class: "theme-color-green",
+	// },
+	// {
+	// 	id: "orange",
+	// 	name: "Orange",
+	// 	background: "orange-color",
+	// 	class: "theme-color-orange",
+	// },
 ];
 
 const clickOutsideRef = (content_ref, toggle_ref) => {
