@@ -14,7 +14,13 @@ const Contact = () => {
 			>
 				<Container maxW={"6xl"}>
 					<SectionHeader name={"Get in Touch"} />
-					<Flex alignItems={"center"} mt="24" justifyContent="space-evenly">
+					<Flex
+						alignItems={"center"}
+						flexDirection={["column", "column", "row"]}
+						mt={["10", "24"]}
+						justifyContent="space-evenly"
+						gap={[2, 2, 0]}
+					>
 						<Flex
 							boxShadow={`${"var(--box-shadow)"}`}
 							p="5"

@@ -81,7 +81,12 @@ const Hero = () => {
 							</Heading>
 							<Cursor cursorColor={`${"var(--main-color)"}`} />
 						</Box>
-						<Box display={"flex"} alignItems="center" justifyContent={"center"}>
+						<Box
+							display={"flex"}
+							mt="2"
+							alignItems="center"
+							justifyContent={"center"}
+						>
 							<Link
 								href={"../../assets/Mahmoud's Resume.pdf"}
 								download

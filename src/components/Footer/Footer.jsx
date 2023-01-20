@@ -12,8 +12,9 @@ const Footer = () => {
 				py={"5"}
 				fontSize={["lg", "xl", "2xl"]}
 				backgroundColor={`${"var(--main-bg)"}`}
+				textAlign="center"
 			>
-				<Text>
+				<Text fontSize={["sm", "md", "lg"]}>
 					All Right Reserved &copy;{" "}
 					<Text as="span" color={mainColor} fontWeight="600">
 						Mahmoud Saber

@@ -110,7 +110,7 @@ const Projects = () => {
 									<Image
 										src={da.img}
 										w="100%"
-										height={["100px", "150px", "250px"]}
+										height={["200px", "220px", "250px"]}
 										objectFit="cover"
 										borderRadius="10px 10px 0 0"
 									/>
@@ -136,13 +136,17 @@ const Projects = () => {
 											justifyContent="space-between"
 										>
 											{da.date.map((date, index) => (
-												<Text fontSize={"md"} key={index} fontWeight="500">
+												<Text
+													fontSize={["12px", "sm", "md"]}
+													key={index}
+													fontWeight="500"
+												>
 													{date}
 												</Text>
 											))}
 										</Flex>
 										<Text
-											fontSize={"sm"}
+											fontSize={["12px", "sm"]}
 											fontWeight="300"
 											textTransform={"capitalize"}
 											lineHeight="1.5"
@@ -178,7 +182,7 @@ const Projects = () => {
 						<ThemeProvider theme={theme}>
 							{data?.length < 3 ? null : (
 								<Pagination
-									count={(data?.length / 3).toFixed(0)}
+									count={parseInt((data?.length / 3).toFixed(0))}
 									style={{
 										padding: 20,
 										width: "100%",

@@ -31,7 +31,7 @@ const Home = () => {
 				position={"fixed"}
 				minW="100%"
 				minH={"100vh"}
-				left={["90.7%", "90.7%", "96.7%"]}
+				left={["88%", "90.7%", "96.7%"]}
 				top={"50%"}
 				zIndex={9}
 				translateY={"-50%"}

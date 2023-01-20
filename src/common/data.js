@@ -12,8 +12,8 @@ export const dotsIcon = [
 	{ id: 1, icon: "bx-home", label: "Home", to: "#hero" },
 	{ id: 2, icon: "bxs-id-card", label: "About Us", to: "#about" },
 	{ id: 3, icon: "bx-code-alt", label: "Projects", to: "#projects" },
-	{ id: 3, icon: "bx-book-open", label: "Skills", to: "#skills" },
-	{ id: 4, icon: "bxs-comment-detail", label: "Contact Us", to: "#contact" },
+	{ id: 4, icon: "bx-book-open", label: "Skills", to: "#skills" },
+	{ id: 5, icon: "bxs-comment-detail", label: "Contact Us", to: "#contact" },
 ];
 
 export const skillsData = [
@@ -22,8 +22,8 @@ export const skillsData = [
 	{ id: 7, name: "Matrial-UI", exp: "100%", img: skills.mu5 },
 	{ id: 8, name: "Chakra-UI", exp: "100%", img: skills.chakra },
 	{ id: 9, name: "Tailwind-CSS", exp: "90%", img: skills.tailwindcss },
-	{ id: 10, name: "Bootstrap", exp: "100%", img: skills.bootstrap },
-	{ id: 10, name: "SASS", exp: "90%", img: skills.sass },
+	{ id: 13, name: "Bootstrap", exp: "100%", img: skills.bootstrap },
+	{ id: 14, name: "SASS", exp: "90%", img: skills.sass },
 	{ id: 3, name: "JavaScript", exp: "98%", img: skills.javascript },
 	{ id: 5, name: "React", exp: "90%", img: skills.react },
 	{ id: 6, name: "Redux", exp: "85%", img: skills.redux },
