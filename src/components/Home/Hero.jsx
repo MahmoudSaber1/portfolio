@@ -83,9 +83,10 @@ const Hero = () => {
 						</Box>
 						<Box
 							display={"flex"}
-							mt="2"
+							mt="5"
 							alignItems="center"
 							justifyContent={"center"}
+							gap={5}
 						>
 							<Link
 								href={"../../assets/Mahmoud's Resume.pdf"}
@@ -95,7 +96,8 @@ const Hero = () => {
 								<Text
 									border={`1px solid  ${"var(--main-color)"}`}
 									fontSize={["md", "lg", "xl"]}
-									p={["1", "2"]}
+									py={["1", "2"]}
+									px={["1", "5"]}
 									w="fit-content"
 									borderRadius={"md"}
 									color={`${"var(--txt-color)"}`}
@@ -106,6 +108,28 @@ const Hero = () => {
 									}}
 								>
 									Download CV
+								</Text>
+							</Link>
+							<Link
+								href={"https://www.facebook.com/Mahmoud.Saber.132001"}
+								target={"_blank"}
+							>
+								<Text
+									border={`1px solid  ${"var(--main-color)"}`}
+									fontSize={["md", "lg", "xl"]}
+									py={["1", "2"]}
+									px={["1", "5"]}
+									w="fit-content"
+									borderRadius={"md"}
+									backgroundColor={`${"var(--main-color)"}`}
+									color={`${"var(--txt-white)"}`}
+									transition="0.5s"
+									_hover={{
+										backgroundColor: `transparent`,
+										color: "var(--txt-color)",
+									}}
+								>
+									Hire Me
 								</Text>
 							</Link>
 						</Box>

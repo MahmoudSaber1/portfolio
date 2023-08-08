@@ -57,16 +57,14 @@ const About = () => {
 								textTransform="capitalize"
 								lineHeight="1.5"
 							>
-								Hi, I{"'"}m Mahmoud Saber 💝 <br /> My journey started since
-								late 2019, I have a passion for most aspects of computer related
-								departments as I learned JavaScript and dealing with OOP,
-								software design patterns, and solid principles using JavaScript
-								Building a website with React.js Networking Basics Basics of
-								building operating systems Dealing with the operating system via
-								the command line using bash and patch scripts I am interested in
-								the field of penetration testing, I am currently working as a
-								front end developer using JavaScript And React.js I am also
-								interested to learn Backend Developer Using Node.js
+								Front-end developer with 2 years experience in HTML, JavaScript,
+								skilled in modern frameworks React.js, Next.js, Redux Toolkit,
+								experienced in building dynamic web applications with attractive
+								UIs using responsive design techniques. Proficient in state
+								management with Redux and server communication with Axios.
+								Strong knowledge of TypeScript for code quality and
+								maintainability. Passionate about staying up-to-date with
+								front-end development and best practices
 							</Text>
 						</Flex>
 					</motion.div>

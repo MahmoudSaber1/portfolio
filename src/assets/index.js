@@ -1,6 +1,6 @@
 export const images = {
-	myPhoto: require("./myPhoto.jpeg"),
-	myPhoto1: require("./myPhoto1.jpeg"),
+	myPhoto: require("./myPhoto3.jpg"),
+	myPhoto1: require("./myPhoto3.jpg"),
 };
 
 export const icons = {
